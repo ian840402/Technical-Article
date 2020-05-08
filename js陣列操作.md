@@ -65,3 +65,8 @@ arr.includes(var);  //若是陣列中有值返回true，反之返回false
 var arr = [1,2,3];
 arr.includes(1);  //返回true
 ```
+
+## 備註
+
+1. 陣列中刪除項目時 filter 與 splice 比較  
+正常情況下差異不大，但若是基數大於1000以上，splice 的效能會高於 filter 。
