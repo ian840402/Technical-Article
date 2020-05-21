@@ -1,4 +1,4 @@
-Ajax筆記
+Jquery Ajax 筆記
 =======
 
 ## 基本寫法
